@@ -2,6 +2,9 @@ def check_if_word_has_4_or_more_letters(word):
     return
 
 
+lista = [1, 2, 3]
+
+
 def check_what_number_is_greater(first_number, second_number):
     return
 
