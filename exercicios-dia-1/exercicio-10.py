@@ -1,5 +1,6 @@
 import locale
 
+
 def calculute_discont_percent(fuel_type, fuel_liters):
     gasoline, alcohol = "G", "A"
     if (fuel_type == "G"):
@@ -33,4 +34,4 @@ def calculate_value_fuel(fuel_type, fuel_liters):
     return locale.currency(round(total_value, 2))
 
 
-print(calculate_value_fuel("G", 19.99))
+print(calculate_value_fuel("G", 20))
